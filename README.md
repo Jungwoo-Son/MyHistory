@@ -5,5 +5,7 @@ This is a report on my growth process.
 
 <hr>
 
-2019.09.16 11:34:XX
+2019.09.16 23:34:XX
 - C Language Files의 PolynomialLinkedList.cpp 파일이 사실 PolynormialLinkedList.cpp가 맞다. (오타)
+2019.09.17 19:39:XX
+- 수업시간에 배운 Queue를 기반으로한 QueueList를 구현해보았다.
