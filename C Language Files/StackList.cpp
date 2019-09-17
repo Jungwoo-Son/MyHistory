@@ -1,3 +1,19 @@
+/*
+	파일명 StackList.cpp
+	제작자 이진혁
+	내용 {
+		본 코드는 stack 자료구조를 List 형태로 구현한 코드이다.
+		기능에는 ListInit, Insert, FindAll, Remove, isEmpty, Count 가 있으며
+		각각의 기능은 아래와 같다.
+		ListInit - List를 초기화 한다.
+		Insert - Stack 자료구조에 맞는 형태로 Node를 생성하여 List에 추가한다.
+		FindAll - Remove와는 다르게 Node를 삭제하는 것이 아닌 모든 Node의 값만 출력한다.
+		Remove - Stack 자료구조에 맞는 형태로 Node의 Data를 리턴하고 Node를 삭제한다.
+		isEmpty - List에 Node가 존재하는지 확인한다.
+		Count - List 안에 Node가 몇 개 존재하는지 확인한다.
+	}
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -26,7 +42,6 @@ void Insert(List*, Data);
 void FindAll(List*);
 Data Remove(List*);
 int isEmpty(List*);
-int isNext(List*);
 int Count(List*);
 
 int main() {
